@@ -11,3 +11,7 @@ This script generates a stacked bar chart to visualize the relationship between 
 #### Metaplots for ATAC_peaks of Differentially Expressed Genes.R
 
 This script performs ATAC-seq data analysis to identify and visualize changes in chromatin accessibility associated with upregulated and downregulated genes under different treatment conditions. The script reads peak information, normalizes read counts to counts per million (CPM), categorizes genes based on log2 fold change, and generates plots to illustrate the normalized read coverage across genomic regions.
+
+#### Volcano_ATAC_Peaks.R
+
+The script reads peak information, processes the data to categorize chromatin accessibility peaks based on differential accessibility, and generates volcano plots to visualize the changes in chromatin accessibility, indicating increased and decreased accessibility.
