@@ -15,3 +15,7 @@ This script performs ATAC-seq data analysis to identify and visualize changes in
 #### Volcano_ATAC_Peaks.R
 
 The script reads peak information, processes the data to categorize chromatin accessibility peaks based on differential accessibility, and generates volcano plots to visualize the changes in chromatin accessibility, indicating increased and decreased accessibility.
+
+#### Volcano_GeneExpression.R
+
+The script reads gene expression data, processes it to categorize genes based on differential expression, and generates volcano plots to visualize the changes in gene expression, indicating increased and decreased expression.
