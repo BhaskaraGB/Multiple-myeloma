@@ -19,3 +19,7 @@ The script reads peak information, processes the data to categorize chromatin ac
 #### Volcano_GeneExpression.R
 
 The script reads gene expression data, processes it to categorize genes based on differential expression, and generates volcano plots to visualize the changes in gene expression, indicating increased and decreased expression.
+
+#### DepMAP_ADA2B_Effect.R
+
+This script processes the data to summarize mean CRISPR scores and expression values for ADA2B gene by lineage, and generates a scatter plot with labeled points for low CRISPR scores, highlighting specific cell lineages.
