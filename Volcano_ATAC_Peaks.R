@@ -19,7 +19,7 @@ atac_data <- read.csv("NT-3d-Dox_vs_s2B-3d-Dox_edgeR_All.-50000-TSS-50000.closes
 names(atac_data)
 head(atac_data)
 
-# Process data: Select relevant columns and categorize differential expression
+# Process data: Select relevant columns and categorize differential accessibility
 processed_data <- atac_data %>% 
   select(Gene, log2ratio, FDR) %>% 
   mutate(DiffExp = ifelse(FDR <= 0.05 & abs(log2ratio) >= 0, 
@@ -48,7 +48,7 @@ print(volcano_plot)
 # Read input CSV file for 5-day data
 atac_data_5day <- read.csv("NT-5d-Dox_vs_s2B-5d-Dox_edgeR_All.-50000-TSS-50000.closest_gene.only_original_peaks_kept.csv", na.strings = c("", "NA"))
 
-# Process data: Select relevant columns and categorize differential expression
+# Process data: Select relevant columns and categorize differential accessibility
 processed_data_5day <- atac_data_5day %>% 
   select(Gene, log2ratio, FDR) %>% 
   mutate(DiffExp = ifelse(FDR <= 0.05 & abs(log2ratio) >= 0, 
