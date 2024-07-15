@@ -23,3 +23,7 @@ The script reads gene expression data, processes it to categorize genes based on
 #### *DepMAP_ADA2B_Effect.R*
 
 This script processes the data to summarize mean CRISPR scores and expression values for ADA2B gene by lineage, and generates a scatter plot with labeled points for low CRISPR scores, highlighting specific cell lineages.
+
+
+#### *DepScore_SAGA_components.R*
+This script performs data analysis and visualization for the study of SAGA subunits dependency scores in multiple myeloma (MM) cell lines. It processes CRISPR dependency scores and expression data, categorizes genes based on their module, and generates box plots to visualize the dependency scores of different genes across various cell lines. 
