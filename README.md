@@ -4,6 +4,9 @@
 
 Below is a brief summary of the scripts used for data analysis and visualization in this publication. For any queries, please contact bgovinal@mdanderson.org or bhaskartigp@gmail.com.
 
+#### *Anova_TukeyHSD.R*
+These scripts are used to perform ANOVA and Tukey HSD tests to analyze various comparisons made in different experiments. The analyses include cell viability, cell cycle phases, rescue experiments, and other related studies. The scripts help in determining the statistical significance of the observed differences across multiple experimental conditions, ensuring the robustness and reliability of the results presented in the manuscript.
+
 #### *DepMAP_ADA2B_Effect.R*
 This script processes the data to summarize mean CRISPR scores and expression values for ADA2B gene by lineage, and generates a scatter plot with labeled points for low CRISPR scores, highlighting specific cell lineages.
 
