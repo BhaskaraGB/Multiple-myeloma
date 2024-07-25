@@ -1,4 +1,6 @@
-## *The SAGA acetyltransferase module is required for the maintenance of MAF and MYC oncogenic gene expression programs in multiple myeloma*. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10996596/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10996596/).
+### *The SAGA acetyltransferase module is required for the maintenance of MAF and MYC oncogenic gene expression programs in multiple myeloma*. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10996596.
 
 Below is a brief summary of the scripts used for data analysis and visualization in this publication. Please send queries to the author at bgovinal@mdanderson.org or bhaskartigp@gmail.com.
 
